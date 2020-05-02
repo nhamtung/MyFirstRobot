@@ -1,5 +1,5 @@
 // https://mlab.vn/index.php?_route_=bai-viet-ki-thuat/15129-bai-4-lap-trinh-raspberry-pi-su-dung-cong-truyen-thong-uart.html
-// Compile : gcc -Wall uart-send.c -o uart-send -lwiringPi
+// Compile : gcc -Wall uart-receive.c -o uart-receive -lwiringPi
  
 #include <stdio.h>
 #include <string.h>
@@ -11,18 +11,19 @@
 int main() {
  
 	int fd;
- 
-	printf("Raspberry's sending : \n");
+	char c;
+	printf("Raspberry's receiving : \n");
  
 	while(1) {
 		if((fd = serialOpen ("/dev/ttyAMA0", 9600)) < 0 ){
-			fprintf (stderr, "Unable to open serial device: %s\n", strerror (errno));
+			fprintf (stderr, "Unable to open serial device: %s\n", strerror (errno)) ;
+		}else{
+			do{
+				c = serialGetchar(fd);
+				printf("%c",c);
+				fflush (stdout);
+			}while(serialDataAvail(fd));
 		}
-		serialPuts(fd, "hello");
-		serialFlush(fd);
-		printf("%s\n", "hello");
-		fflush(stdout);
-		delay(1000);
 	}
 	return 0;
 }

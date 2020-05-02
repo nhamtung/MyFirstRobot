@@ -13,13 +13,14 @@ ser = serial.Serial(
 	timeout = 1
 )
  
-print("Raspberry's sending : ")
+print("Raspberry's receiving : ")
  
 try:
     while True:
-    	ser.write(b'hehe')
-    	ser.flush()
-    	print("hehe")
-    	time.sleep(1)
+        s = ser.readline()
+        data = s.decode()			# decode s
+        data = data.rstrip()			# cut "\r\n" at last of string
+        print(data)				# print string
+ 
 except KeyboardInterrupt:
 	ser.close()
