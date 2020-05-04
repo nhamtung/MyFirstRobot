@@ -6,7 +6,7 @@ import serial
  
 ser = serial.Serial(
 	port = '/dev/ttyAMA0',
-	baudrate = 9600,
+	baudrate = 115200,
 	parity = serial.PARITY_NONE,
 	stopbits = serial.STOPBITS_ONE,
 	bytesize = serial.EIGHTBITS,
@@ -18,9 +18,10 @@ print("Raspberry's receiving : ")
 try:
     while True:
         s = ser.readline()
+        # print("TungNV_s = ", s)				# print string
         data = s.decode()			# decode s
         data = data.rstrip()			# cut "\r\n" at last of string
-        print(data)				# print string
+        print("TungNV_data = ", data)				# print string
  
 except KeyboardInterrupt:
 	ser.close()

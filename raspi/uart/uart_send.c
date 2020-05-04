@@ -1,5 +1,12 @@
 // https://mlab.vn/index.php?_route_=bai-viet-ki-thuat/15129-bai-4-lap-trinh-raspberry-pi-su-dung-cong-truyen-thong-uart.html
-// Compile : gcc -Wall uart-receive.c -o uart-receive -lwiringPi
+
+// install wiringPi:
+// $cd /tmp
+// $sudo wget https://unicorn.drogon.net/wiringpi-2.46-1.deb
+// $sudo dpkg -i wiringpi-2.46-1.deb 
+
+// Compile : $gcc -Wall uart_send.c -o uart_send -lwiringPi
+// Run: $./uart_send
  
 #include <stdio.h>
 #include <string.h>
@@ -11,19 +18,18 @@
 int main() {
  
 	int fd;
-	char c;
-	printf("Raspberry's receiving : \n");
+ 
+	printf("Raspberry's sending : \n");
  
 	while(1) {
-		if((fd = serialOpen ("/dev/ttyAMA0", 9600)) < 0 ){
-			fprintf (stderr, "Unable to open serial device: %s\n", strerror (errno)) ;
-		}else{
-			do{
-				c = serialGetchar(fd);
-				printf("%c",c);
-				fflush (stdout);
-			}while(serialDataAvail(fd));
+		if((fd = serialOpen ("/dev/ttyAMA0", 115200)) < 0 ){
+			fprintf (stderr, "Unable to open serial device: %s\n", strerror (errno));
 		}
+		serialPuts(fd, "hello");
+		serialFlush(fd);
+		printf("%s\n", "hello");
+		fflush(stdout);
+		delay(1000);
 	}
 	return 0;
 }
