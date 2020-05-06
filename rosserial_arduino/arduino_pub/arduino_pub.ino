@@ -1,4 +1,10 @@
-
+/*
+ * http://wiki.ros.org/rosserial_arduino/Tutorials/Hello%20World
+ * 
+ * $roscore (if error run: $killall -9 roscore)
+ * $rosrun rosserial_python serial_node.py /dev/ttyUSB0
+ * $rostopic echo topic_chatter
+ */
 
 #include <ros.h>
 #include <std_msgs/String.h>
