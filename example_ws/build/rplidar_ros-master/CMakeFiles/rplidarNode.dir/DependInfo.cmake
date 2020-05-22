@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp" "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp" "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp" "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp" "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp" "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp" "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp" "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp" "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp" "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp" "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp" "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp" "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,8 +22,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/include"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/src"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/include"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/src"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

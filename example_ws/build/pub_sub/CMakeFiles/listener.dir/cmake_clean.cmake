@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/listener.dir/src/listener.cpp.o"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/listener.pdb"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/listener"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/listener.pdb"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/listener"
 )
 
 # Per-language clean rules from dependency scanning.

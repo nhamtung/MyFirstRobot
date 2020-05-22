@@ -43,25 +43,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/src
+CMAKE_SOURCE_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/build
+CMAKE_BINARY_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/build
 
 # Utility rule file for pub_sub_generate_messages_eus.
 
 # Include the progress variables for this target.
 include pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/progress.make
 
-pub_sub/CMakeFiles/pub_sub_generate_messages_eus: /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub/manifest.l
+pub_sub/CMakeFiles/pub_sub_generate_messages_eus: /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub/manifest.l
 
 
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for pub_sub"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub pub_sub std_msgs
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for pub_sub"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub pub_sub std_msgs
 
 pub_sub_generate_messages_eus: pub_sub/CMakeFiles/pub_sub_generate_messages_eus
-pub_sub_generate_messages_eus: /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub/manifest.l
+pub_sub_generate_messages_eus: /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub/manifest.l
 pub_sub_generate_messages_eus: pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/build.make
 
 .PHONY : pub_sub_generate_messages_eus
@@ -72,10 +72,10 @@ pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/build: pub_sub_generate_mes
 .PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/build
 
 pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/clean:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/pub_sub_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/pub_sub_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/clean
 
 pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/depend:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/TungNV/MyFirstRobot/example_ws/src /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub /home/ubuntu/TungNV/MyFirstRobot/example_ws/build /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nhamtung/TungNV/MyFirstRobot/example_ws/src /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub /home/nhamtung/TungNV/MyFirstRobot/example_ws/build /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/depend
 

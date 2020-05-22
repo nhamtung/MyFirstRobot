@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/src
+CMAKE_SOURCE_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/build
+CMAKE_BINARY_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/build
 
 # Include any dependencies generated for this target.
 include pub_sub/CMakeFiles/talker.dir/depend.make
@@ -58,17 +58,17 @@ include pub_sub/CMakeFiles/talker.dir/progress.make
 include pub_sub/CMakeFiles/talker.dir/flags.make
 
 pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o: pub_sub/CMakeFiles/talker.dir/flags.make
-pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/talker.dir/src/talker.cpp.o -c /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp
+pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/talker.dir/src/talker.cpp.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp
 
 pub_sub/CMakeFiles/talker.dir/src/talker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/talker.cpp.i"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp > CMakeFiles/talker.dir/src/talker.cpp.i
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp > CMakeFiles/talker.dir/src/talker.cpp.i
 
 pub_sub/CMakeFiles/talker.dir/src/talker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/talker.cpp.s"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp -o CMakeFiles/talker.dir/src/talker.cpp.s
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/talker.cpp -o CMakeFiles/talker.dir/src/talker.cpp.s
 
 pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o.requires:
 
@@ -88,33 +88,33 @@ talker_OBJECTS = \
 # External object files for target talker
 talker_EXTERNAL_OBJECTS =
 
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: pub_sub/CMakeFiles/talker.dir/build.make
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libroscpp.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librosconsole.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/liblog4cxx.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librostime.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_chrono.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libboost_atomic.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libpthread.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: pub_sub/CMakeFiles/talker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talker.dir/link.txt --verbose=$(VERBOSE)
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: pub_sub/CMakeFiles/talker.dir/src/talker.cpp.o
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: pub_sub/CMakeFiles/talker.dir/build.make
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libroscpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librosconsole.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/librostime.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker: pub_sub/CMakeFiles/talker.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talker.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-pub_sub/CMakeFiles/talker.dir/build: /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker
+pub_sub/CMakeFiles/talker.dir/build: /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pub_sub/talker
 
 .PHONY : pub_sub/CMakeFiles/talker.dir/build
 
@@ -123,10 +123,10 @@ pub_sub/CMakeFiles/talker.dir/requires: pub_sub/CMakeFiles/talker.dir/src/talker
 .PHONY : pub_sub/CMakeFiles/talker.dir/requires
 
 pub_sub/CMakeFiles/talker.dir/clean:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/talker.dir/cmake_clean.cmake
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/talker.dir/cmake_clean.cmake
 .PHONY : pub_sub/CMakeFiles/talker.dir/clean
 
 pub_sub/CMakeFiles/talker.dir/depend:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/TungNV/MyFirstRobot/example_ws/src /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub /home/ubuntu/TungNV/MyFirstRobot/example_ws/build /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/CMakeFiles/talker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nhamtung/TungNV/MyFirstRobot/example_ws/src /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub /home/nhamtung/TungNV/MyFirstRobot/example_ws/build /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/CMakeFiles/talker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pub_sub/CMakeFiles/talker.dir/depend
 

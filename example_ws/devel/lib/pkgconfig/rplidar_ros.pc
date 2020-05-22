@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel
+prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
 
 Name: rplidar_ros
 Description: Description of rplidar_ros

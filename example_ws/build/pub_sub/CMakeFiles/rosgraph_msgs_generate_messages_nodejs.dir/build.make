@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/src
+CMAKE_SOURCE_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/build
+CMAKE_BINARY_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build: rosgraph_ms
 .PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/TungNV/MyFirstRobot/example_ws/src /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub /home/ubuntu/TungNV/MyFirstRobot/example_ws/build /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nhamtung/TungNV/MyFirstRobot/example_ws/src /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub /home/nhamtung/TungNV/MyFirstRobot/example_ws/build /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

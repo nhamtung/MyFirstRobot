@@ -1,4 +1,4 @@
-prefix=/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel
+prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
 
 Name: pub_sub
 Description: Description of pub_sub

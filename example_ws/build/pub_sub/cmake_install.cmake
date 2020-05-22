@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub
+# Install script for directory: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/TungNV/MyFirstRobot/example_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nhamtung/TungNV/MyFirstRobot/example_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,37 +33,37 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_sub/cmake" TYPE FILE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_sub-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_sub/cmake" TYPE FILE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_sub-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/roseus/ros/pub_sub")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/python2.7/dist-packages/pub_sub")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/python2.7/dist-packages/pub_sub")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/python2.7/dist-packages/pub_sub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/python2.7/dist-packages/pub_sub")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_sub.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_sub.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_sub/cmake" TYPE FILE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_sub-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_sub/cmake" TYPE FILE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_sub-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_sub/cmake" TYPE FILE FILES
-    "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_subConfig.cmake"
-    "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_subConfig-version.cmake"
+    "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_subConfig.cmake"
+    "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/catkin_generated/installspace/pub_subConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_sub" TYPE FILE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pub_sub" TYPE FILE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/package.xml")
 endif()
 

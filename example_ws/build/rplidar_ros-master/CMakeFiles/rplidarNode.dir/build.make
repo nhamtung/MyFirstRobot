@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/src
+CMAKE_SOURCE_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/build
+CMAKE_BINARY_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/build
 
 # Include any dependencies generated for this target.
 include rplidar_ros-master/CMakeFiles/rplidarNode.dir/depend.make
@@ -58,17 +58,17 @@ include rplidar_ros-master/CMakeFiles/rplidarNode.dir/progress.make
 include rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o: rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/src/node.cpp.i"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp > CMakeFiles/rplidarNode.dir/src/node.cpp.i
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp > CMakeFiles/rplidarNode.dir/src/node.cpp.i
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/src/node.cpp.s"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp -o CMakeFiles/rplidarNode.dir/src/node.cpp.s
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/node.cpp -o CMakeFiles/rplidarNode.dir/src/node.cpp.s
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o.requires:
 
@@ -81,18 +81,42 @@ rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o.provides: rplidar_r
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o.provides.build: rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o
 
 
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp
+
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
+
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
+
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires:
+
+.PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires
+
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires
+	$(MAKE) -f rplidar_ros-master/CMakeFiles/rplidarNode.dir/build.make rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides.build
+.PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides
+
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides.build: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+
+
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.i
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_socket.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.s
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o.requires:
 
@@ -106,17 +130,17 @@ rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.
 
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.i
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/net_serial.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.s
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o.requires:
 
@@ -129,42 +153,18 @@ rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o.provides.build: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
 
 
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp
-
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp > CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.i
-
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/arch/linux/timer.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.s
-
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires:
-
-.PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires
-
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires
-	$(MAKE) -f rplidar_ros-master/CMakeFiles/rplidarNode.dir/build.make rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides.build
-.PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides
-
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.provides.build: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
-
-
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp > CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp > CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.i
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/hal/thread.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.s
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o.requires:
 
@@ -178,17 +178,17 @@ rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o.provides.
 
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: rplidar_ros-master/CMakeFiles/rplidarNode.dir/flags.make
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp > CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.i
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk/src/rplidar_driver.cpp -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.s
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o.requires:
 
@@ -204,64 +204,64 @@ rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o.provi
 # Object files for target rplidarNode
 rplidarNode_OBJECTS = \
 "CMakeFiles/rplidarNode.dir/src/node.cpp.o" \
+"CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o" \
 "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o" \
 "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o" \
-"CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o" \
 "CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o" \
 "CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
 
 # External object files for target rplidarNode
 rplidarNode_EXTERNAL_OBJECTS =
 
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/build.make
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libroscpp.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librosconsole.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/liblog4cxx.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librostime.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libcpp_common.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_chrono.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libboost_atomic.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libpthread.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode"
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNode.dir/link.txt --verbose=$(VERBOSE)
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/build.make
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libroscpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librosconsole.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/librostime.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode: rplidar_ros-master/CMakeFiles/rplidarNode.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode"
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/build: /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/build: /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode
 
 .PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/build
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires: rplidar_ros-master/CMakeFiles/rplidarNode.dir/src/node.cpp.o.requires
+rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o.requires
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o.requires
-rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o.requires
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o.requires
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires: rplidar_ros-master/CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o.requires
 
 .PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/requires
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/clean:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNode.dir/cmake_clean.cmake
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && $(CMAKE_COMMAND) -P CMakeFiles/rplidarNode.dir/cmake_clean.cmake
 .PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/clean
 
 rplidar_ros-master/CMakeFiles/rplidarNode.dir/depend:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/TungNV/MyFirstRobot/example_ws/src /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master /home/ubuntu/TungNV/MyFirstRobot/example_ws/build /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nhamtung/TungNV/MyFirstRobot/example_ws/src /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master /home/nhamtung/TungNV/MyFirstRobot/example_ws/build /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rplidar_ros-master/CMakeFiles/rplidarNode.dir/depend
 

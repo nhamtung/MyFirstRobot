@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/client.cpp
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/client.cpp
 ros/ros.h
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/ros/ros.h
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/sensor_msgs/LaserScan.h
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/sensor_msgs/LaserScan.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/client.cpp" "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/src/client.cpp" "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/include"
-  "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/src"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/include"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/src"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

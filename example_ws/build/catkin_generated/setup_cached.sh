@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/ubuntu/TungNV/MyFirstRobot/example_ws/build"
-export PYTHONPATH="/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ubuntu/TungNV/MyFirstRobot/example_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/nhamtung/TungNV/MyFirstRobot/example_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nhamtung/TungNV/MyFirstRobot/example_ws/src:$ROS_PACKAGE_PATH"

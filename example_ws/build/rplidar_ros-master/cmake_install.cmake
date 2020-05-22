@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master
+# Install script for directory: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/TungNV/MyFirstRobot/example_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nhamtung/TungNV/MyFirstRobot/example_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/catkin_generated/installspace/rplidar_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/catkin_generated/installspace/rplidar_ros.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rplidar_ros/cmake" TYPE FILE FILES
-    "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/catkin_generated/installspace/rplidar_rosConfig.cmake"
-    "/home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/catkin_generated/installspace/rplidar_rosConfig-version.cmake"
+    "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/catkin_generated/installspace/rplidar_rosConfig.cmake"
+    "/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/catkin_generated/installspace/rplidar_rosConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rplidar_ros" TYPE FILE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rplidar_ros" TYPE FILE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros/rplidarNode"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros" TYPE EXECUTABLE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros" TYPE EXECUTABLE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNode")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros/rplidarNode" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros/rplidarNode")
     file(RPATH_CHANGE
@@ -74,7 +74,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros/rplidarNodeClient"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros" TYPE EXECUTABLE FILES "/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNodeClient")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros" TYPE EXECUTABLE FILES "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rplidar_ros/rplidarNodeClient")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros/rplidarNodeClient" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rplidar_ros/rplidarNodeClient")
     file(RPATH_CHANGE
@@ -89,9 +89,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rplidar_ros" TYPE DIRECTORY FILES
-    "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/launch"
-    "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/rviz"
-    "/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk"
+    "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/launch"
+    "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/rviz"
+    "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/sdk"
     USE_SOURCE_PERMISSIONS)
 endif()
 

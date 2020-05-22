@@ -67,14 +67,14 @@ set(pub_sub_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pub_sub_SOURCE_PREFIX /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub)
-  set(pub_sub_DEVEL_PREFIX /home/ubuntu/TungNV/MyFirstRobot/example_ws/devel)
+  set(pub_sub_SOURCE_PREFIX /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub)
+  set(pub_sub_DEVEL_PREFIX /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel)
   set(pub_sub_INSTALL_PREFIX "")
   set(pub_sub_PREFIX ${pub_sub_DEVEL_PREFIX})
 else()
   set(pub_sub_SOURCE_PREFIX "")
   set(pub_sub_DEVEL_PREFIX "")
-  set(pub_sub_INSTALL_PREFIX /home/ubuntu/TungNV/MyFirstRobot/example_ws/install)
+  set(pub_sub_INSTALL_PREFIX /home/nhamtung/TungNV/MyFirstRobot/example_ws/install)
   set(pub_sub_PREFIX ${pub_sub_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ubuntu/TungNV/MyFirstRobot/example_ws/install/lib;/home/ubuntu/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/nhamtung/TungNV/MyFirstRobot/example_ws/install/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

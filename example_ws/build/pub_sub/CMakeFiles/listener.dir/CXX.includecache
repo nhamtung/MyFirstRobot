@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/listener.cpp
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/listener.cpp
 ros/ros.h
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/ros/ros.h
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/ros/ros.h
 std_msgs/String.h
-/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/std_msgs/String.h
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/src/std_msgs/String.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

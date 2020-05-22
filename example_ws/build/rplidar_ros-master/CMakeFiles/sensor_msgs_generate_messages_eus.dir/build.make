@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/src
+CMAKE_SOURCE_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/TungNV/MyFirstRobot/example_ws/build
+CMAKE_BINARY_DIR = /home/nhamtung/TungNV/MyFirstRobot/example_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build: senso
 .PHONY : rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 
 rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend:
-	cd /home/ubuntu/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/TungNV/MyFirstRobot/example_ws/src /home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master /home/ubuntu/TungNV/MyFirstRobot/example_ws/build /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master /home/ubuntu/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nhamtung/TungNV/MyFirstRobot/example_ws/src /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master /home/nhamtung/TungNV/MyFirstRobot/example_ws/build /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rplidar_ros-master/CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 

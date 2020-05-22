@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"rplidar_ros\"
 
-CXX_INCLUDES = -I/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/include -I/home/ubuntu/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/include -I/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/./sdk/src -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
