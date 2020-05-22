@@ -1,2 +1,2 @@
 pub_sub:rplidar_ros-master
--DCATKIN_DEVEL_PREFIX=/home/ubuntu/TungNV/MyFirstRobot/example_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/TungNV/MyFirstRobot/example_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nhamtung/TungNV/MyFirstRobot/example_ws/install -G Unix Makefiles
