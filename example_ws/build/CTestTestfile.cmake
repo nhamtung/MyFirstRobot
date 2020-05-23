@@ -4,6 +4,6 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
-subdirs(gtest)
-subdirs(pub_sub)
-subdirs(rplidar_ros-master)
+subdirs("gtest")
+subdirs("pub_sub")
+subdirs("rplidar_ros-master")

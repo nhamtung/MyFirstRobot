@@ -14,19 +14,51 @@ import cv2
 from sensor_msgs.msg import LaserScan
 from sensor_msgs.msg import PointCloud2
 
+TOPIC = [
+		"chatter_topic",#0
+		"scan",			#1
+		"cloud"			#2		
+		]
+
+topic = TOPIC[1]
+
+
+def TopicScan(msg):
+	print ("INFO - seqence: " + str(msg.header.seq))
+	print ("INFO - stamp.secs: " + str(msg.header.stamp.secs))
+	print ("INFO - stamp.nsecs: " + str(msg.header.stamp.nsecs))
+	print ("INFO - frame_id: " + str(msg.header.frame_id))
+	print ("INFO - angle_min: " + str(msg.angle_min))
+	print ("INFO - angle_max: " + str(msg.angle_max))
+	print ("INFO - angle_increment: " + str(msg.angle_increment))
+	print ("INFO - time_increment: " + str(msg.time_increment))
+	print ("INFO - scan_time: " + str(msg.scan_time))
+	print ("INFO - range_min: " + str(msg.range_min))
+	print ("INFO - range_max: " + str(msg.range_max))
+	print ("INFO - leng.data: " + str(len(msg.ranges)))
+	print ("INFO - ranges: " + str(msg.ranges))
+
+def TopicCloud(msg):
+	print ("INFO - seqence: " + str(msg.header.seq))
+	print ("INFO - stamp.secs: " + str(msg.header.stamp.secs))
+	print ("INFO - stamp.nsecs: " + str(msg.header.stamp.nsecs))
+	print ("INFO - frame_id: " + str(msg.header.frame_id))
+	print ("INFO - height: " + str(msg.height))
+	print ("INFO - width: " + str(msg.width))
+	print ("INFO - is_bigendian: " + str(msg.is_bigendian))
+	print ("INFO - point_step: " + str(msg.point_step))
+	print ("INFO - row_step: " + str(msg.row_step))
+	print ("INFO - is_dense: " + str(msg.is_dense))
+	print ("INFO - leng.data: " + str(len(msg.data)))
+	print ("INFO - data: " + str(msg.data))
 
 def callback(msg):
-    print("Subscriber to chatter_topic!")
-    try:        
-        np_arr = np.fromstring(msg.data, np.uint8)
-        image_np = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
-        print("INFO -- image_np.shape = " + str(image_np.shape))
-        image_np = cv2.cvtColor(image_np, cv2.COLOR_BGR2GRAY)
-        print("INFO -- image_np.shape = " + str(image_np.shape))
-        # cv2.imshow("test", image_np)
-        # cv2.waitKey(0)
-    except CvBridgeError as e:
-      print(e)
+	global topic
+	print("\n\nReceive data of topic /" + topic)
+	if topic == TOPIC[1]:
+		TopicScan(msg)
+	if topic == TOPIC[2]:
+		TopicCloud(msg)
     
 def listener():
     # In ROS, nodes are uniquely named. If two nodes with the same
@@ -37,12 +69,14 @@ def listener():
     rospy.init_node('listener')
     print("create node: listener")
 
-    # rospy.Subscriber("chatter_topic", CompressedImage, callback)
-    # print("Subscriber to chatter_topic")
-    # rospy.Subscriber("scan", LaserScan, callback)
-    # print("Subscriber to scan")
-    rospy.Subscriber("cloud", PointCloud2, callback)
-    print("Subscriber to cloud")
+    global topic
+    if topic == TOPIC[0]:
+    	rospy.Subscriber(topic, CompressedImage, callback)
+    if topic == TOPIC[1]:
+    	rospy.Subscriber(topic, LaserScan, callback)
+    if topic == TOPIC[2]:
+    	rospy.Subscriber(topic, PointCloud2, callback)
+    print("Subscriber to topic /" + topic)
 
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
