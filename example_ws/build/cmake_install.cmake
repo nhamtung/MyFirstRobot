@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/gtest/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/sick_scan/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/cmake_install.cmake")
 
 endif()

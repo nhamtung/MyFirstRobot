@@ -12,5 +12,5 @@ export LD_LIBRARY_PATH="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib:
 export PKG_CONFIG_PATH="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/nhamtung/TungNV/MyFirstRobot/example_ws/build"
 export PYTHONPATH="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/common-lisp"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/nhamtung/TungNV/MyFirstRobot/example_ws/src:$ROS_PACKAGE_PATH"
