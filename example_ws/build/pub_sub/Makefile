@@ -91,17 +91,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -111,17 +100,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target install
 install: preinstall
@@ -134,6 +112,28 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,96 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-pub_sub/CMakeFiles/listener.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/listener.dir/rule
-.PHONY : pub_sub/CMakeFiles/listener.dir/rule
-
-# Convenience name for target.
-listener: pub_sub/CMakeFiles/listener.dir/rule
-
-.PHONY : listener
-
-# fast build rule for target.
-listener/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/listener.dir/build.make pub_sub/CMakeFiles/listener.dir/build
-.PHONY : listener/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/talker.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/talker.dir/rule
-.PHONY : pub_sub/CMakeFiles/talker.dir/rule
-
-# Convenience name for target.
-talker: pub_sub/CMakeFiles/talker.dir/rule
-
-.PHONY : talker
-
-# fast build rule for target.
-talker/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/talker.dir/build.make pub_sub/CMakeFiles/talker.dir/build
-.PHONY : talker/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/pub_sub_genpy.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_genpy.dir/rule
-.PHONY : pub_sub/CMakeFiles/pub_sub_genpy.dir/rule
-
-# Convenience name for target.
-pub_sub_genpy: pub_sub/CMakeFiles/pub_sub_genpy.dir/rule
-
-.PHONY : pub_sub_genpy
-
-# fast build rule for target.
-pub_sub_genpy/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_genpy.dir/build.make pub_sub/CMakeFiles/pub_sub_genpy.dir/build
-.PHONY : pub_sub_genpy/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule
-.PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule
-
-# Convenience name for target.
-pub_sub_generate_messages_py: pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule
-
-.PHONY : pub_sub_generate_messages_py
-
-# fast build rule for target.
-pub_sub_generate_messages_py/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/build.make pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/build
-.PHONY : pub_sub_generate_messages_py/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule
-.PHONY : pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule
-
-# Convenience name for target.
-pub_sub_gennodejs: pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule
-
-.PHONY : pub_sub_gennodejs
-
-# fast build rule for target.
-pub_sub_gennodejs/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_gennodejs.dir/build.make pub_sub/CMakeFiles/pub_sub_gennodejs.dir/build
-.PHONY : pub_sub_gennodejs/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule
-.PHONY : pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule
-
-# Convenience name for target.
-pub_sub_genlisp: pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule
-
-.PHONY : pub_sub_genlisp
-
-# fast build rule for target.
-pub_sub_genlisp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_genlisp.dir/build.make pub_sub/CMakeFiles/pub_sub_genlisp.dir/build
-.PHONY : pub_sub_genlisp/fast
-
-# Convenience name for target.
 pub_sub/CMakeFiles/pub_sub_generate_messages_lisp.dir/rule:
 	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_generate_messages_lisp.dir/rule
 .PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_lisp.dir/rule
@@ -288,96 +198,6 @@ pub_sub_geneus/fast:
 .PHONY : pub_sub_geneus/fast
 
 # Convenience name for target.
-pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule
-.PHONY : pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule
-
-# Convenience name for target.
-pub_sub_gencpp: pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule
-
-.PHONY : pub_sub_gencpp
-
-# fast build rule for target.
-pub_sub_gencpp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_gencpp.dir/build.make pub_sub/CMakeFiles/pub_sub_gencpp.dir/build
-.PHONY : pub_sub_gencpp/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : pub_sub/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: pub_sub/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/roscpp_generate_messages_py.dir/build.make pub_sub/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-.PHONY : pub_sub/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_eus: pub_sub/CMakeFiles/roscpp_generate_messages_eus.dir/rule
-
-.PHONY : roscpp_generate_messages_eus
-
-# fast build rule for target.
-roscpp_generate_messages_eus/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/roscpp_generate_messages_eus.dir/build.make pub_sub/CMakeFiles/roscpp_generate_messages_eus.dir/build
-.PHONY : roscpp_generate_messages_eus/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule
-.PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-pub_sub_generate_messages_cpp: pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule
-
-.PHONY : pub_sub_generate_messages_cpp
-
-# fast build rule for target.
-pub_sub_generate_messages_cpp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/build.make pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/build
-.PHONY : pub_sub_generate_messages_cpp/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : pub_sub/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: pub_sub/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make pub_sub/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
 pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/rule:
 	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/rule
 .PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_eus.dir/rule
@@ -393,34 +213,34 @@ pub_sub_generate_messages_eus/fast:
 .PHONY : pub_sub_generate_messages_eus/fast
 
 # Convenience name for target.
-pub_sub/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : pub_sub/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule
+.PHONY : pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_lisp: pub_sub/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+pub_sub_gencpp: pub_sub/CMakeFiles/pub_sub_gencpp.dir/rule
 
-.PHONY : std_msgs_generate_messages_lisp
+.PHONY : pub_sub_gencpp
 
 # fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make pub_sub/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
+pub_sub_gencpp/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_gencpp.dir/build.make pub_sub/CMakeFiles/pub_sub_gencpp.dir/build
+.PHONY : pub_sub_gencpp/fast
 
 # Convenience name for target.
-pub_sub/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : pub_sub/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule
+.PHONY : pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_cpp: pub_sub/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+pub_sub_gennodejs: pub_sub/CMakeFiles/pub_sub_gennodejs.dir/rule
 
-.PHONY : roscpp_generate_messages_cpp
+.PHONY : pub_sub_gennodejs
 
 # fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make pub_sub/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
+pub_sub_gennodejs/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_gennodejs.dir/build.make pub_sub/CMakeFiles/pub_sub_gennodejs.dir/build
+.PHONY : pub_sub_gennodejs/fast
 
 # Convenience name for target.
 pub_sub/CMakeFiles/pub_sub_generate_messages.dir/rule:
@@ -438,109 +258,19 @@ pub_sub_generate_messages/fast:
 .PHONY : pub_sub_generate_messages/fast
 
 # Convenience name for target.
-pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
-.PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule
+.PHONY : pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_eus: pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+pub_sub_genlisp: pub_sub/CMakeFiles/pub_sub_genlisp.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_eus
+.PHONY : pub_sub_genlisp
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-.PHONY : rosgraph_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-.PHONY : pub_sub/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_cpp: pub_sub/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make pub_sub/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-.PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_nodejs: pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-.PHONY : rosgraph_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make pub_sub/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-.PHONY : pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_eus: pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-
-.PHONY : std_msgs_generate_messages_eus
-
-# fast build rule for target.
-std_msgs_generate_messages_eus/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make pub_sub/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-.PHONY : std_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-pub_sub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-.PHONY : pub_sub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_nodejs: pub_sub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make pub_sub/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
+pub_sub_genlisp/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_genlisp.dir/build.make pub_sub/CMakeFiles/pub_sub_genlisp.dir/build
+.PHONY : pub_sub_genlisp/fast
 
 # Convenience name for target.
 pub_sub/CMakeFiles/pub_sub_generate_messages_nodejs.dir/rule:
@@ -558,34 +288,79 @@ pub_sub_generate_messages_nodejs/fast:
 .PHONY : pub_sub_generate_messages_nodejs/fast
 
 # Convenience name for target.
-pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
-.PHONY : pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule
+.PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule
 
 # Convenience name for target.
-roscpp_generate_messages_nodejs: pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+pub_sub_generate_messages_py: pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/rule
 
-.PHONY : roscpp_generate_messages_nodejs
+.PHONY : pub_sub_generate_messages_py
 
 # fast build rule for target.
-roscpp_generate_messages_nodejs/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make pub_sub/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-.PHONY : roscpp_generate_messages_nodejs/fast
+pub_sub_generate_messages_py/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/build.make pub_sub/CMakeFiles/pub_sub_generate_messages_py.dir/build
+.PHONY : pub_sub_generate_messages_py/fast
 
 # Convenience name for target.
-pub_sub/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-.PHONY : pub_sub/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+pub_sub/CMakeFiles/pub_sub_genpy.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_genpy.dir/rule
+.PHONY : pub_sub/CMakeFiles/pub_sub_genpy.dir/rule
 
 # Convenience name for target.
-std_msgs_generate_messages_py: pub_sub/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+pub_sub_genpy: pub_sub/CMakeFiles/pub_sub_genpy.dir/rule
 
-.PHONY : std_msgs_generate_messages_py
+.PHONY : pub_sub_genpy
 
 # fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pub_sub/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
+pub_sub_genpy/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_genpy.dir/build.make pub_sub/CMakeFiles/pub_sub_genpy.dir/build
+.PHONY : pub_sub_genpy/fast
+
+# Convenience name for target.
+pub_sub/CMakeFiles/talker.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/talker.dir/rule
+.PHONY : pub_sub/CMakeFiles/talker.dir/rule
+
+# Convenience name for target.
+talker: pub_sub/CMakeFiles/talker.dir/rule
+
+.PHONY : talker
+
+# fast build rule for target.
+talker/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/talker.dir/build.make pub_sub/CMakeFiles/talker.dir/build
+.PHONY : talker/fast
+
+# Convenience name for target.
+pub_sub/CMakeFiles/listener.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/listener.dir/rule
+.PHONY : pub_sub/CMakeFiles/listener.dir/rule
+
+# Convenience name for target.
+listener: pub_sub/CMakeFiles/listener.dir/rule
+
+.PHONY : listener
+
+# fast build rule for target.
+listener/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/listener.dir/build.make pub_sub/CMakeFiles/listener.dir/build
+.PHONY : listener/fast
+
+# Convenience name for target.
+pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f CMakeFiles/Makefile2 pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule
+.PHONY : pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+pub_sub_generate_messages_cpp: pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/rule
+
+.PHONY : pub_sub_generate_messages_cpp
+
+# fast build rule for target.
+pub_sub_generate_messages_cpp/fast:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/build.make pub_sub/CMakeFiles/pub_sub_generate_messages_cpp.dir/build
+.PHONY : pub_sub_generate_messages_cpp/fast
 
 src/listener.o: src/listener.cpp.o
 
@@ -649,39 +424,24 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... rebuild_cache"
-	@echo "... test"
-	@echo "... listener"
-	@echo "... talker"
-	@echo "... pub_sub_genpy"
-	@echo "... pub_sub_generate_messages_py"
-	@echo "... pub_sub_gennodejs"
-	@echo "... pub_sub_genlisp"
 	@echo "... pub_sub_generate_messages_lisp"
 	@echo "... pub_sub_geneus"
+	@echo "... pub_sub_generate_messages_eus"
+	@echo "... rebuild_cache"
 	@echo "... list_install_components"
 	@echo "... pub_sub_gencpp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... roscpp_generate_messages_eus"
-	@echo "... edit_cache"
-	@echo "... pub_sub_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... pub_sub_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_cpp"
+	@echo "... pub_sub_gennodejs"
 	@echo "... install"
 	@echo "... pub_sub_generate_messages"
-	@echo "... rosgraph_msgs_generate_messages_eus"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... pub_sub_genlisp"
 	@echo "... pub_sub_generate_messages_nodejs"
-	@echo "... roscpp_generate_messages_nodejs"
-	@echo "... std_msgs_generate_messages_py"
+	@echo "... pub_sub_generate_messages_py"
+	@echo "... pub_sub_genpy"
+	@echo "... talker"
+	@echo "... listener"
+	@echo "... test"
+	@echo "... pub_sub_generate_messages_cpp"
+	@echo "... edit_cache"
 	@echo "... src/listener.o"
 	@echo "... src/listener.i"
 	@echo "... src/listener.s"

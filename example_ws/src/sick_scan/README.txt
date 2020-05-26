@@ -15,7 +15,7 @@
 - $cd ./example_ws
 - $catkin_make
 - $source devel/setup.bash
-- $roslaunch sick_scan sick_lms_1xx.launch
+- $roslaunch sick_scan test_sick_lms_1xx.launch
 
 4. Config Rviz:
 - Change Fixed Frame field to laser

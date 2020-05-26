@@ -131,9 +131,15 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/gtest/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_slam_launch/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_map_tools/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_geotiff/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_geotiff_plugins/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_mapping/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pub_sub/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/sick_scan/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_trajectory_server/cmake_install.cmake")
 
 endif()
 
