@@ -27,6 +27,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "hector_slam/hector_slam_launch/catkin_generated/package.cmake"
   "hector_slam/hector_trajectory_server/catkin_generated/ordered_paths.cmake"
   "hector_slam/hector_trajectory_server/catkin_generated/package.cmake"
+  "navigation_tutorial/robot_setup_tf/catkin_generated/ordered_paths.cmake"
+  "navigation_tutorial/robot_setup_tf/catkin_generated/package.cmake"
   "pub_sub/catkin_generated/ordered_paths.cmake"
   "pub_sub/catkin_generated/package.cmake"
   "pub_sub/catkin_generated/pub_sub-msg-extras.cmake.develspace.in"
@@ -62,6 +64,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_slam_launch/package.xml"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_trajectory_server/CMakeLists.txt"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_trajectory_server/package.xml"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_tutorial/robot_setup_tf/CMakeLists.txt"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_tutorial/robot_setup_tf/package.xml"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/CMakeLists.txt"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub/package.xml"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rplidar_ros-master/CMakeLists.txt"
@@ -369,6 +373,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "sick_scan/CMakeFiles/CMakeDirectoryInformation.cmake"
   "rplidar_ros-master/CMakeFiles/CMakeDirectoryInformation.cmake"
   "hector_slam/hector_trajectory_server/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "navigation_tutorial/robot_setup_tf/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -541,4 +546,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "rplidar_ros-master/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake"
   "rplidar_ros-master/CMakeFiles/rplidarNode.dir/DependInfo.cmake"
   "hector_slam/hector_trajectory_server/CMakeFiles/hector_trajectory_server.dir/DependInfo.cmake"
+  "navigation_tutorial/robot_setup_tf/CMakeFiles/tf_listener.dir/DependInfo.cmake"
+  "navigation_tutorial/robot_setup_tf/CMakeFiles/tf_broadcaster.dir/DependInfo.cmake"
   )

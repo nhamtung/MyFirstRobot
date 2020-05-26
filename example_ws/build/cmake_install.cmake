@@ -140,6 +140,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/sick_scan/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_trajectory_server/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/robot_setup_tf/cmake_install.cmake")
 
 endif()
 
