@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
+
+Name: amcl_load_map
+Description: Description of amcl_load_map
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

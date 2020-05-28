@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+	
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find amcl_load_map)/rviz/rviz.rviz" required="true" output="screen"/>
+  <include file="$(find amcl_load_map)/launch/amcl_demo.launch"></include>
+
+</launch>
