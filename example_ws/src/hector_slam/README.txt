@@ -7,7 +7,10 @@
 - $roslaunch hector_mapping mapping_default.launch
 - $roslaunch sick_scan mapping_sick_lms_1xx.launch
 
-3. Save map with hector_geotiff pkg:
+3. Save Map with map_server:
+- $rosrun map_server map_saver -f ~/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/maps/test_map
+
+4. Save map with hector_geotiff pkg:
 - $roslaunch hector_geotiff geotiff_mapper.launch
 - $rostopic pub syscommand std_msgs/String "savegeotiff"
 - map saved in /hector_geotiff/maps
@@ -28,6 +31,9 @@ Link: http://library.isr.ist.utl.pt/docs/roswiki/hector_slam(2f)Tutorials(2f)Map
 4. Open Map (direct to .bag file)
 - $rosbag play Team_Hector_MappingBox_RoboCup_2011_Rescue_Arena.bag  --clock
 
-5. Save Map with hector_geotiff:
+5. Save Map with map_server:
+- $rosrun map_server map_saver -f ~/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/maps/test_map
+
+6. Save Map with hector_geotiff:
 - $rostopic pub syscommand std_msgs/String "savegeotiff"
 - map saved in /hector_geotiff/maps

@@ -141,6 +141,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rplidar_ros-master/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_trajectory_server/cmake_install.cmake")
   include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/robot_setup_tf/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/my_robot_name_2dnav/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_navigation/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_description/cmake_install.cmake")
+  include("/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_gazebo/cmake_install.cmake")
 
 endif()
 

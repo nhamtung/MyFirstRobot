@@ -2377,6 +2377,84 @@ tf_broadcaster/fast:
 	$(MAKE) -f navigation_tutorial/robot_setup_tf/CMakeFiles/tf_broadcaster.dir/build.make navigation_tutorial/robot_setup_tf/CMakeFiles/tf_broadcaster.dir/build
 .PHONY : tf_broadcaster/fast
 
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_cpp
+
+# Build rule for target.
+move_base_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_cpp
+.PHONY : move_base_msgs_generate_messages_cpp
+
+# fast build rule for target.
+move_base_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build.make navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/build
+.PHONY : move_base_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named move_base_gencfg
+
+# Build rule for target.
+move_base_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_gencfg
+.PHONY : move_base_gencfg
+
+# fast build rule for target.
+move_base_gencfg/fast:
+	$(MAKE) -f navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_gencfg.dir/build.make navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_gencfg.dir/build
+.PHONY : move_base_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_eus
+
+# Build rule for target.
+move_base_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_eus
+.PHONY : move_base_msgs_generate_messages_eus
+
+# fast build rule for target.
+move_base_msgs_generate_messages_eus/fast:
+	$(MAKE) -f navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build.make navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_eus.dir/build
+.PHONY : move_base_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_lisp
+
+# Build rule for target.
+move_base_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_lisp
+.PHONY : move_base_msgs_generate_messages_lisp
+
+# fast build rule for target.
+move_base_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+.PHONY : move_base_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_nodejs
+
+# Build rule for target.
+move_base_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_nodejs
+.PHONY : move_base_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+move_base_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build.make navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/build
+.PHONY : move_base_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named move_base_msgs_generate_messages_py
+
+# Build rule for target.
+move_base_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_base_msgs_generate_messages_py
+.PHONY : move_base_msgs_generate_messages_py
+
+# fast build rule for target.
+move_base_msgs_generate_messages_py/fast:
+	$(MAKE) -f navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make navigation_tutorial/my_robot_name_2dnav/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
+.PHONY : move_base_msgs_generate_messages_py/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2560,6 +2638,12 @@ help:
 	@echo "... hector_trajectory_server"
 	@echo "... tf_listener"
 	@echo "... tf_broadcaster"
+	@echo "... move_base_msgs_generate_messages_cpp"
+	@echo "... move_base_gencfg"
+	@echo "... move_base_msgs_generate_messages_eus"
+	@echo "... move_base_msgs_generate_messages_lisp"
+	@echo "... move_base_msgs_generate_messages_nodejs"
+	@echo "... move_base_msgs_generate_messages_py"
 .PHONY : help
 
 

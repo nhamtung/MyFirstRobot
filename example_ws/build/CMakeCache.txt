@@ -1108,7 +1108,7 @@ kdl_conversions_DIR:PATH=/opt/ros/melodic/share/kdl_conversions/cmake
 laser_geometry_DIR:PATH=/opt/ros/melodic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libtf2.so
+lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -1133,6 +1133,15 @@ my_robot_name_2dnav_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example
 
 //Value Computed by CMake
 my_robot_name_2dnav_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_tutorial/my_robot_name_2dnav
+
+//The directory containing a CMake configuration file for my_robot_package.
+my_robot_package_DIR:PATH=my_robot_package_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for my_sensor_configuration_dep.
+my_sensor_configuration_dep_DIR:PATH=my_sensor_configuration_dep_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for my_tf_configuration_dep.
+my_tf_configuration_dep_DIR:PATH=my_tf_configuration_dep_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
@@ -1172,6 +1181,24 @@ rosbag_DIR:PATH=/opt/ros/melodic/share/rosbag/cmake
 
 //The directory containing a CMake configuration file for rosbag_storage.
 rosbag_storage_DIR:PATH=/opt/ros/melodic/share/rosbag_storage/cmake
+
+//Value Computed by CMake
+rosbot_description_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_description
+
+//Value Computed by CMake
+rosbot_description_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rosbot_description/rosbot_description
+
+//Value Computed by CMake
+rosbot_gazebo_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_gazebo
+
+//Value Computed by CMake
+rosbot_gazebo_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rosbot_description/rosbot_gazebo
+
+//Value Computed by CMake
+rosbot_navigation_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_navigation
+
+//Value Computed by CMake
+rosbot_navigation_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rosbot_description/rosbot_navigation
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -1214,6 +1241,9 @@ rplidar_ros_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/
 
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/melodic/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for serializer.
+serializer_DIR:PATH=serializer_DIR-NOTFOUND
 
 //Value Computed by CMake
 sick_lms100_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/sick_lms100
@@ -1271,6 +1301,9 @@ visualization_msgs_DIR:PATH=/opt/ros/melodic/share/visualization_msgs/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
+
+//The directory containing a CMake configuration file for xv_11_laser_driver.
+xv_11_laser_driver_DIR:PATH=xv_11_laser_driver_DIR-NOTFOUND
 
 
 ########################
@@ -1410,7 +1443,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
