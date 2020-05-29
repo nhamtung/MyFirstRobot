@@ -1057,7 +1057,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 hector_geotiff_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_geotiff
 
 //The directory containing a CMake configuration file for hector_geotiff.
-hector_geotiff_DIR:PATH=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/hector_geotiff/cmake
+hector_geotiff_DIR:PATH=/home/nhamtung/TungNV/catkin_test_ws/devel/share/hector_geotiff/cmake
 
 //Value Computed by CMake
 hector_geotiff_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff
@@ -1075,7 +1075,7 @@ hector_geotiff_plugins_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/exam
 hector_map_tools_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/hector_map_tools
 
 //The directory containing a CMake configuration file for hector_map_tools.
-hector_map_tools_DIR:PATH=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/share/hector_map_tools/cmake
+hector_map_tools_DIR:PATH=/home/nhamtung/TungNV/catkin_test_ws/devel/share/hector_map_tools/cmake
 
 //Value Computed by CMake
 hector_map_tools_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_map_tools
@@ -1189,22 +1189,22 @@ rosbag_DIR:PATH=/opt/ros/melodic/share/rosbag/cmake
 rosbag_storage_DIR:PATH=/opt/ros/melodic/share/rosbag_storage/cmake
 
 //Value Computed by CMake
-rosbot_description_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_description
+rosbot_description_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/rosbot_description/rosbot_description
 
 //Value Computed by CMake
-rosbot_description_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rosbot_description/rosbot_description
+rosbot_description_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/rosbot_description/rosbot_description
 
 //Value Computed by CMake
-rosbot_gazebo_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_gazebo
+rosbot_gazebo_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/rosbot_description/rosbot_gazebo
 
 //Value Computed by CMake
-rosbot_gazebo_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rosbot_description/rosbot_gazebo
+rosbot_gazebo_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/rosbot_description/rosbot_gazebo
 
 //Value Computed by CMake
-rosbot_navigation_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/rosbot_description/rosbot_navigation
+rosbot_navigation_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/hector_slam/rosbot_description/rosbot_navigation
 
 //Value Computed by CMake
-rosbot_navigation_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/rosbot_description/rosbot_navigation
+rosbot_navigation_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/rosbot_description/rosbot_navigation
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
@@ -1449,7 +1449,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

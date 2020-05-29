@@ -108,7 +108,7 @@ hector_geotiff/map_writer_plugin_interface.h
 hector_nav_msgs/GetRobotTrajectory.h
 -
 
-/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_map_tools/include/hector_map_tools/HectorMapTools.h
+/home/nhamtung/TungNV/catkin_test_ws/src/hector_slam/hector_map_tools/include/hector_map_tools/HectorMapTools.h
 nav_msgs/OccupancyGrid.h
 -
 nav_msgs/MapMetaData.h

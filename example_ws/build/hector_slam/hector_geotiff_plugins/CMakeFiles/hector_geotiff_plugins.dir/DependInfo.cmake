@@ -18,8 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/include"
-  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/include"
-  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_map_tools/include"
+  "/home/nhamtung/TungNV/catkin_test_ws/src/hector_slam/hector_geotiff/include"
+  "/home/nhamtung/TungNV/catkin_test_ws/src/hector_slam/hector_map_tools/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

@@ -6385,6 +6385,60 @@ clean: navigation_tutorial/robot_setup_tf/CMakeFiles/tf_broadcaster.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory hector_slam/rosbot_description/rosbot_navigation
+
+# Convenience name for "all" pass in the directory.
+hector_slam/rosbot_description/rosbot_navigation/all:
+
+.PHONY : hector_slam/rosbot_description/rosbot_navigation/all
+
+# Convenience name for "clean" pass in the directory.
+hector_slam/rosbot_description/rosbot_navigation/clean:
+
+.PHONY : hector_slam/rosbot_description/rosbot_navigation/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hector_slam/rosbot_description/rosbot_navigation/preinstall:
+
+.PHONY : hector_slam/rosbot_description/rosbot_navigation/preinstall
+
+#=============================================================================
+# Directory level rules for directory hector_slam/rosbot_description/rosbot_description
+
+# Convenience name for "all" pass in the directory.
+hector_slam/rosbot_description/rosbot_description/all:
+
+.PHONY : hector_slam/rosbot_description/rosbot_description/all
+
+# Convenience name for "clean" pass in the directory.
+hector_slam/rosbot_description/rosbot_description/clean:
+
+.PHONY : hector_slam/rosbot_description/rosbot_description/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hector_slam/rosbot_description/rosbot_description/preinstall:
+
+.PHONY : hector_slam/rosbot_description/rosbot_description/preinstall
+
+#=============================================================================
+# Directory level rules for directory hector_slam/rosbot_description/rosbot_gazebo
+
+# Convenience name for "all" pass in the directory.
+hector_slam/rosbot_description/rosbot_gazebo/all:
+
+.PHONY : hector_slam/rosbot_description/rosbot_gazebo/all
+
+# Convenience name for "clean" pass in the directory.
+hector_slam/rosbot_description/rosbot_gazebo/clean:
+
+.PHONY : hector_slam/rosbot_description/rosbot_gazebo/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hector_slam/rosbot_description/rosbot_gazebo/preinstall:
+
+.PHONY : hector_slam/rosbot_description/rosbot_gazebo/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
