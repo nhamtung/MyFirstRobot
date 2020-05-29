@@ -164,7 +164,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.0500000007
       Style: Flat Squares
-      Topic: /rosbot/laser/scan
+      Topic: /scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -216,7 +216,7 @@ Visualization Manager:
       Unreliable: false
       Value: true
     - Class: rviz/TF
-      Enabled: false
+      Enabled: true
       Frame Timeout: 15
       Frames:
         All Enabled: true

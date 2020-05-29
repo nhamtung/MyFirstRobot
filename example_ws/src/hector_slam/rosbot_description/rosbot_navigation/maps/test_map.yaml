@@ -1,6 +1,6 @@
-image: /home/nhamtung/TungNV/catkin_test_ws/src/rosbot_description/src/rosbot_navigation/maps/test_map.pgm
+image: /home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/rosbot_description/rosbot_navigation/maps/test_map.pgm
 resolution: 0.010000
-origin: [-15.560000, -15.240000, 0.000000]
+origin: [-15.240000, -17.160000, 0.000000]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.196
