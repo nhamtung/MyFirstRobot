@@ -1,8 +1,0 @@
-prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
-
-Name: sick_lms100
-Description: Description of sick_lms100
-Version: 0.0.0
-Cflags: -I/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
