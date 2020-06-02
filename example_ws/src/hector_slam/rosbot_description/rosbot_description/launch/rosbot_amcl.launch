@@ -6,11 +6,11 @@
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
 
   <!-- Robot discription -->
-  <param name="robot_description" command="$(find xacro)/xacro '$(find rosbot_description)/urdf/rosbot.xacro'"/>
-  <node name="rosbot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param robot_description -model rosbot" />
+  <param name="robot_description" command="$(find xacro)/xacro '$(find rosbot_description)/urdf/rosbot_TungNV.xacro'"/>
 
-  <!-- gazebo -->
-  <include file="$(find rosbot_gazebo)/launch/rosbot_world.launch"></include>
+  <!-- Gazebo -->
+  <node name="rosbot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param robot_description -model rosbot" />
+  <include file="$(find rosbot_gazebo)/launch/world.launch"></include>
 
   <!-- Show in Rviz   -->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rosbot_description)/rviz/rosbot.rviz" required="true" output="screen"/>

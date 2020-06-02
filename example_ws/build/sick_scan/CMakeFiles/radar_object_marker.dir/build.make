@@ -132,6 +132,7 @@ radar_object_marker_EXTERNAL_OBJECTS =
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/radar_object_marker: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/radar_object_marker: /opt/ros/melodic/lib/libnodeletlib.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/radar_object_marker: /opt/ros/melodic/lib/libbondcpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/radar_object_marker: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/radar_object_marker: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/radar_object_marker: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/radar_object_marker: /usr/lib/x86_64-linux-gnu/libpcl_io.so

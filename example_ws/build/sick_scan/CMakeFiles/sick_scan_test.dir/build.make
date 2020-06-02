@@ -209,6 +209,7 @@ sick_scan_test_EXTERNAL_OBJECTS =
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /opt/ros/melodic/lib/libnodeletlib.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /opt/ros/melodic/lib/libbondcpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libpcl_io.so
@@ -432,6 +433,7 @@ sick_scan_test_EXTERNAL_OBJECTS =
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /opt/ros/melodic/lib/libnodeletlib.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /opt/ros/melodic/lib/libbondcpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_scan_test: /usr/lib/x86_64-linux-gnu/libpcl_io.so

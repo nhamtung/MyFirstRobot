@@ -132,6 +132,7 @@ sick_generic_caller_EXTERNAL_OBJECTS =
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_generic_caller: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_generic_caller: /opt/ros/melodic/lib/libnodeletlib.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_generic_caller: /opt/ros/melodic/lib/libbondcpp.so
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_generic_caller: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_generic_caller: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_generic_caller: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
 /home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/sick_scan/sick_generic_caller: /usr/lib/x86_64-linux-gnu/libpcl_io.so

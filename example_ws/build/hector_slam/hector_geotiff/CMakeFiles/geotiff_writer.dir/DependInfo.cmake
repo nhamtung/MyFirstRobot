@@ -25,11 +25,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/qt4/QtCore"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/include"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/include/hector_geotiff"
-  "/home/nhamtung/TungNV/catkin_test_ws/devel/include"
-  "/home/nhamtung/TungNV/catkin_test_ws/src/hector_slam/hector_map_tools/include"
+  "/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_map_tools/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
+  "/home/nhamtung/TungNV/catkin_test_ws/devel/include"
   )
 
 # Targets to which this target links.

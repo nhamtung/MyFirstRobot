@@ -1,3 +1,5 @@
+Link: http://wiki.ros.org/hector_slam
+
 #######################################################
 		Build map with sick LMS100
 
