@@ -3,7 +3,7 @@
 <launch>
   <arg name="hostname" default="169.254.178.161" />
     <!-- robot_description and robot_state_publisher hier evtl. einbauen  -->
-  <node pkg="rviz" type="rviz" name="rviz" args="rviz.rviz"/>
+  <!-- <node pkg="rviz" type="rviz" name="rviz" args="rviz.rviz"/> -->
   <node name="sick_lms_1xx" pkg="sick_scan" type="sick_generic_caller" respawn="false" output="screen">
     <!-- default values: -->
     <!--
@@ -29,5 +29,8 @@
 	<param name="port" type="string" value="2112" />
 	<param name="timelimit" type="int" value="5" />
   </node>
-  <node pkg="tf" type="static_transform_publisher" name="base_to_laser_broadcaster" args="0 0 0 0 0 0 1 odom laser 10" />
+  <!-- <node pkg="tf" type="static_transform_publisher" name="odom_to_laser_broadcaster" args="0 0 0 0 0 0 1 odom laser 10" /> -->
+  <node pkg="tf" type="static_transform_publisher" name="map_nav_broadcaster" args="-0.45 0 0 3.1765 0 3.1415 /base_link /laser 100">
+    <!-- <remap from="tf_static" to="tf" /> -->
+  </node>
 </launch>

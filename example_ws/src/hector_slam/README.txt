@@ -10,7 +10,7 @@ Link: http://wiki.ros.org/hector_slam
 - $roslaunch sick_scan mapping_sick_lms_1xx.launch
 
 3. Save Map with map_server:
-- $rosrun map_server map_saver -f ~/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/maps/test_map
+- $rosrun map_server map_saver -f ~/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/maps/test_map_TungNV
 
 4. Save map with hector_geotiff pkg:
 - $roslaunch hector_geotiff geotiff_mapper.launch

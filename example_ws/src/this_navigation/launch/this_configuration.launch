@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find this_robot)/launch/this_sensors.launch"/>
+	<include file="$(find this_robot)/launch/this_driver.launch"/>
+</launch>

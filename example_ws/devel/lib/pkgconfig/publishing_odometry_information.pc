@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
+
+Name: publishing_odometry_information
+Description: Description of publishing_odometry_information
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

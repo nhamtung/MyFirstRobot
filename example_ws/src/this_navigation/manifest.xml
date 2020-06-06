@@ -1,0 +1,17 @@
+<package>
+  <description brief="this_navigation">
+
+     this_navigation
+
+  </description>
+  <author>admin</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/this_navigation</url>
+  <depend package="this_robot"/>
+  <depend package="joy"/>
+  <depend package="gmapping"/>
+  <depend package="move_base"/>
+</package>
+
+

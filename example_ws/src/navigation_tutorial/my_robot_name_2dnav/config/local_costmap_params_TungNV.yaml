@@ -1,0 +1,15 @@
+local_costmap:
+  update_frequency: 5
+  publish_frequency: 5
+  static_map: false
+  rolling_window: true
+  width: 3
+  height: 3
+  resolution: 0.01
+  # transform_tolerance: 0.25
+  # origin_x: -1.5
+  # origin_y: -1.5
+  # inflation_radius: 1.0
+
+  global_frame: odom
+  robot_base_frame: base_link

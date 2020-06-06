@@ -1110,6 +1110,9 @@ hector_trajectory_server_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/ex
 //Value Computed by CMake
 hector_trajectory_server_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_trajectory_server
 
+//The directory containing a CMake configuration file for if.
+if_DIR:PATH=if_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for kdl_conversions.
 kdl_conversions_DIR:PATH=/opt/ros/melodic/share/kdl_conversions/cmake
 
@@ -1117,7 +1120,7 @@ kdl_conversions_DIR:PATH=/opt/ros/melodic/share/kdl_conversions/cmake
 laser_geometry_DIR:PATH=/opt/ros/melodic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libtf2.so
+lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
@@ -1127,6 +1130,21 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for move_base.
+move_base_DIR:PATH=/opt/ros/melodic/share/move_base/cmake
+
+//The directory containing a CMake configuration file for move_base_msgs.
+move_base_msgs_DIR:PATH=/opt/ros/melodic/share/move_base_msgs/cmake
+
+//The directory containing a CMake configuration file for my_odom_configuration_dep.
+my_odom_configuration_dep_DIR:PATH=my_odom_configuration_dep_DIR-NOTFOUND
+
+//Value Computed by CMake
+my_robot_name_2dnav_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/my_robot_name_2dnav
+
+//Value Computed by CMake
+my_robot_name_2dnav_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_tutorial/my_robot_name_2dnav
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
@@ -1154,6 +1172,12 @@ pub_sub_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/pu
 
 //Value Computed by CMake
 pub_sub_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/pub_sub
+
+//Value Computed by CMake
+publishing_odometry_information_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/publishing_odometry_information
+
+//Value Computed by CMake
+publishing_odometry_information_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_tutorial/publishing_odometry_information
 
 //Value Computed by CMake
 robot_setup_tf_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/robot_setup_tf
@@ -1413,7 +1437,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
