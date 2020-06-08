@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-	<include file="$(find this_navigation)/launch/my_robot_configuration.launch"/>
-	<include file="$(find this_navigation)/launch/move_base.launch"/>
-	<include file="$(find this_navigation)/launch/this_gmapping.launch"/>
-	
-	<!-- Show in Rviz   -->
-  	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot_name_2dnav)/rviz/rosbot_TungNV.rviz" required="true" output="screen"/>
-</launch>

@@ -977,6 +977,9 @@ catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
 
+//The directory containing a CMake configuration file for cmake_modules.
+cmake_modules_DIR:PATH=/opt/ros/melodic/share/cmake_modules/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 
@@ -1149,6 +1152,12 @@ my_robot_name_2dnav_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/melodic/share/nav_msgs/cmake
 
+//Value Computed by CMake
+navigation_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_lms100/src/navigation
+
+//Value Computed by CMake
+navigation_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_lms100/src/navigation
+
 //The directory containing a CMake configuration file for nodelet.
 nodelet_DIR:PATH=/opt/ros/melodic/share/nodelet/cmake
 
@@ -1178,6 +1187,15 @@ publishing_odometry_information_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstR
 
 //Value Computed by CMake
 publishing_odometry_information_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_tutorial/publishing_odometry_information
+
+//Value Computed by CMake
+rf2o_laser_odometry_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_lms100/src/rf2o_laser_odometry
+
+//Dependencies for the target
+rf2o_laser_odometry_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libtf.so;general;/opt/ros/melodic/lib/libtf2_ros.so;general;/opt/ros/melodic/lib/libactionlib.so;general;/opt/ros/melodic/lib/libmessage_filters.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libtf2.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
+
+//Value Computed by CMake
+rf2o_laser_odometry_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_lms100/src/rf2o_laser_odometry
 
 //Value Computed by CMake
 robot_setup_tf_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/robot_setup_tf
@@ -1437,7 +1455,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=22
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

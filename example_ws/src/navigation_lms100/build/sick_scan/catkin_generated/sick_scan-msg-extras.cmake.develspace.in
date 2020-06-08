@@ -1,0 +1,2 @@
+set(sick_scan_MESSAGE_FILES "/home/tu/NAV245/src/sick_scan/msg/SickImu.msg;/home/tu/NAV245/src/sick_scan/msg/RadarObject.msg;/home/tu/NAV245/src/sick_scan/msg/RadarPreHeaderDeviceBlock.msg;/home/tu/NAV245/src/sick_scan/msg/RadarPreHeaderMeasurementParam1Block.msg;/home/tu/NAV245/src/sick_scan/msg/RadarPreHeaderStatusBlock.msg;/home/tu/NAV245/src/sick_scan/msg/RadarPreHeaderEncoderBlock.msg;/home/tu/NAV245/src/sick_scan/msg/RadarPreHeader.msg;/home/tu/NAV245/src/sick_scan/msg/RadarScan.msg;/home/tu/NAV245/src/sick_scan/msg/Encoder.msg")
+set(sick_scan_SERVICE_FILES "")

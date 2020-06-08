@@ -2508,6 +2508,32 @@ publishing_odometry_information_genpy/fast:
 .PHONY : publishing_odometry_information_genpy/fast
 
 #=============================================================================
+# Target rules for targets named rf2o_laser_odometry_node
+
+# Build rule for target.
+rf2o_laser_odometry_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rf2o_laser_odometry_node
+.PHONY : rf2o_laser_odometry_node
+
+# fast build rule for target.
+rf2o_laser_odometry_node/fast:
+	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build
+.PHONY : rf2o_laser_odometry_node/fast
+
+#=============================================================================
+# Target rules for targets named rf2o_laser_odometry
+
+# Build rule for target.
+rf2o_laser_odometry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rf2o_laser_odometry
+.PHONY : rf2o_laser_odometry
+
+# fast build rule for target.
+rf2o_laser_odometry/fast:
+	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build
+.PHONY : rf2o_laser_odometry/fast
+
+#=============================================================================
 # Target rules for targets named tf_listener
 
 # Build rule for target.
@@ -2804,6 +2830,8 @@ help:
 	@echo "... pub_odometry_transform"
 	@echo "... publishing_odometry_information_gennodejs"
 	@echo "... publishing_odometry_information_genpy"
+	@echo "... rf2o_laser_odometry_node"
+	@echo "... rf2o_laser_odometry"
 	@echo "... tf_listener"
 	@echo "... tf_broadcaster"
 	@echo "... move_base_msgs_generate_messages_cpp"
