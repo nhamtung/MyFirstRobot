@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o"
+  "CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode_TungNV.cpp.o"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rf2o_laser_odometry/rf2o_laser_odometry_node.pdb"
   "/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/rf2o_laser_odometry/rf2o_laser_odometry_node"
 )

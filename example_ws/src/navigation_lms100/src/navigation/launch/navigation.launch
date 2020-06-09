@@ -9,7 +9,7 @@
   <include file="$(find sick_scan)/launch/map_sick_lms_1xx.launch"/>
 
   <!-- Laser Odom -->
-  <include file="$(find rf2o_laser_odometry)/launch/rf2o_laser_odometry.launch"/>
+  <include file="$(find rf2o_laser_odometry)/launch/rf2o_laser_odometry_TungNV.launch"/>
 
   <!-- Map server -->
   <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>

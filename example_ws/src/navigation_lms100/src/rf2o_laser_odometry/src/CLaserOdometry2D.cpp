@@ -942,7 +942,7 @@ void CLaserOdometry2D::PoseUpdate()
   //Compose Transformations
   robot_pose_ = laser_pose_ * laser_pose_on_robot_inv_;
 
-  ROS_INFO_COND(verbose, "BASEodom = [%f %f %f]",
+  ROS_INFO_COND(verbose, "[rf2o] BASEodom  = [%f %f %f]",
                 robot_pose_.translation()(0),
                 robot_pose_.translation()(1),
                 rf2o::getYaw(robot_pose_.rotation()));

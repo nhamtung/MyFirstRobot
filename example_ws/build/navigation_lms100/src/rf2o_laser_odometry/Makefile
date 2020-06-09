@@ -197,59 +197,59 @@ rf2o_laser_odometry/fast:
 	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build
 .PHONY : rf2o_laser_odometry/fast
 
-src/CLaserOdometry2D.o: src/CLaserOdometry2D.cpp.o
+src/CLaserOdometry2DNode_TungNV.o: src/CLaserOdometry2DNode_TungNV.cpp.o
 
-.PHONY : src/CLaserOdometry2D.o
-
-# target to build an object file
-src/CLaserOdometry2D.cpp.o:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o
-.PHONY : src/CLaserOdometry2D.cpp.o
-
-src/CLaserOdometry2D.i: src/CLaserOdometry2D.cpp.i
-
-.PHONY : src/CLaserOdometry2D.i
-
-# target to preprocess a source file
-src/CLaserOdometry2D.cpp.i:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.i
-.PHONY : src/CLaserOdometry2D.cpp.i
-
-src/CLaserOdometry2D.s: src/CLaserOdometry2D.cpp.s
-
-.PHONY : src/CLaserOdometry2D.s
-
-# target to generate assembly for a file
-src/CLaserOdometry2D.cpp.s:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.s
-.PHONY : src/CLaserOdometry2D.cpp.s
-
-src/CLaserOdometry2DNode.o: src/CLaserOdometry2DNode.cpp.o
-
-.PHONY : src/CLaserOdometry2DNode.o
+.PHONY : src/CLaserOdometry2DNode_TungNV.o
 
 # target to build an object file
-src/CLaserOdometry2DNode.cpp.o:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o
-.PHONY : src/CLaserOdometry2DNode.cpp.o
+src/CLaserOdometry2DNode_TungNV.cpp.o:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode_TungNV.cpp.o
+.PHONY : src/CLaserOdometry2DNode_TungNV.cpp.o
 
-src/CLaserOdometry2DNode.i: src/CLaserOdometry2DNode.cpp.i
+src/CLaserOdometry2DNode_TungNV.i: src/CLaserOdometry2DNode_TungNV.cpp.i
 
-.PHONY : src/CLaserOdometry2DNode.i
+.PHONY : src/CLaserOdometry2DNode_TungNV.i
 
 # target to preprocess a source file
-src/CLaserOdometry2DNode.cpp.i:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.i
-.PHONY : src/CLaserOdometry2DNode.cpp.i
+src/CLaserOdometry2DNode_TungNV.cpp.i:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode_TungNV.cpp.i
+.PHONY : src/CLaserOdometry2DNode_TungNV.cpp.i
 
-src/CLaserOdometry2DNode.s: src/CLaserOdometry2DNode.cpp.s
+src/CLaserOdometry2DNode_TungNV.s: src/CLaserOdometry2DNode_TungNV.cpp.s
 
-.PHONY : src/CLaserOdometry2DNode.s
+.PHONY : src/CLaserOdometry2DNode_TungNV.s
 
 # target to generate assembly for a file
-src/CLaserOdometry2DNode.cpp.s:
-	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.s
-.PHONY : src/CLaserOdometry2DNode.cpp.s
+src/CLaserOdometry2DNode_TungNV.cpp.s:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode_TungNV.cpp.s
+.PHONY : src/CLaserOdometry2DNode_TungNV.cpp.s
+
+src/CLaserOdometry2D_TungNV.o: src/CLaserOdometry2D_TungNV.cpp.o
+
+.PHONY : src/CLaserOdometry2D_TungNV.o
+
+# target to build an object file
+src/CLaserOdometry2D_TungNV.cpp.o:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D_TungNV.cpp.o
+.PHONY : src/CLaserOdometry2D_TungNV.cpp.o
+
+src/CLaserOdometry2D_TungNV.i: src/CLaserOdometry2D_TungNV.cpp.i
+
+.PHONY : src/CLaserOdometry2D_TungNV.i
+
+# target to preprocess a source file
+src/CLaserOdometry2D_TungNV.cpp.i:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D_TungNV.cpp.i
+.PHONY : src/CLaserOdometry2D_TungNV.cpp.i
+
+src/CLaserOdometry2D_TungNV.s: src/CLaserOdometry2D_TungNV.cpp.s
+
+.PHONY : src/CLaserOdometry2D_TungNV.s
+
+# target to generate assembly for a file
+src/CLaserOdometry2D_TungNV.cpp.s:
+	cd /home/nhamtung/TungNV/MyFirstRobot/example_ws/build && $(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D_TungNV.cpp.s
+.PHONY : src/CLaserOdometry2D_TungNV.cpp.s
 
 # Help Target
 help:
@@ -266,12 +266,12 @@ help:
 	@echo "... test"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
-	@echo "... src/CLaserOdometry2D.o"
-	@echo "... src/CLaserOdometry2D.i"
-	@echo "... src/CLaserOdometry2D.s"
-	@echo "... src/CLaserOdometry2DNode.o"
-	@echo "... src/CLaserOdometry2DNode.i"
-	@echo "... src/CLaserOdometry2DNode.s"
+	@echo "... src/CLaserOdometry2DNode_TungNV.o"
+	@echo "... src/CLaserOdometry2DNode_TungNV.i"
+	@echo "... src/CLaserOdometry2DNode_TungNV.s"
+	@echo "... src/CLaserOdometry2D_TungNV.o"
+	@echo "... src/CLaserOdometry2D_TungNV.i"
+	@echo "... src/CLaserOdometry2D_TungNV.s"
 .PHONY : help
 
 
