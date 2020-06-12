@@ -1,8 +1,0 @@
-prefix=/home/tu/NAV245/devel
-
-Name: navigation
-Description: Description of navigation
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/tu/NAV245/devel/lib 
-Requires: 

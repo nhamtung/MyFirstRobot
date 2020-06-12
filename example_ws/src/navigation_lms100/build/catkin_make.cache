@@ -1,2 +1,0 @@
-navigation:rf2o_laser_odometry:sick_scan
--DCATKIN_DEVEL_PREFIX=/home/tu/NAV245/devel -DCMAKE_INSTALL_PREFIX=/home/tu/NAV245/install -G Unix Makefiles

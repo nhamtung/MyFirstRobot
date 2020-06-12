@@ -1,8 +1,0 @@
-prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
-
-Name: rosbot_navigation
-Description: Description of rosbot_navigation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

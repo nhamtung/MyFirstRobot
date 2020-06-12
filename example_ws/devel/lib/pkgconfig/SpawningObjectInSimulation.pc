@@ -1,8 +1,0 @@
-prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
-
-Name: SpawningObjectInSimulation
-Description: Description of SpawningObjectInSimulation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

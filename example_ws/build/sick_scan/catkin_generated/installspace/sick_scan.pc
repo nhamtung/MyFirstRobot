@@ -1,8 +1,0 @@
-prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/install
-
-Name: sick_scan
-Description: Description of sick_scan
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 
