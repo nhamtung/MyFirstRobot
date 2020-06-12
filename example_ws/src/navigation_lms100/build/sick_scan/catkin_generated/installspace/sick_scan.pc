@@ -1,8 +1,0 @@
-prefix=/home/tu/NAV245/install
-
-Name: sick_scan
-Description: Description of sick_scan
-Version: 1.4.2
-Cflags: -I/home/tu/NAV245/install/include -I/usr/include
-Libs: -L/home/tu/NAV245/install/lib -lsick_scan_lib /usr/lib/x86_64-linux-gnu/libboost_system.so
-Requires: message_runtime roscpp sensor_msgs diagnostic_updater dynamic_reconfigure

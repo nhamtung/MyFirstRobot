@@ -1,8 +1,0 @@
-prefix=/home/tu/NAV245/devel
-
-Name: rf2o_laser_odometry
-Description: Description of rf2o_laser_odometry
-Version: 1.0.0
-Cflags: -I/home/tu/NAV245/src/rf2o_laser_odometry/include -I/usr/include/eigen3
-Libs: -L/home/tu/NAV245/devel/lib -lrf2o_laser_odometry
-Requires: nav_msgs roscpp sensor_msgs std_msgs tf

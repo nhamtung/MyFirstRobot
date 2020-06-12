@@ -1136,6 +1136,12 @@ laser_geometry_DIR:PATH=/opt/ros/kinetic/share/laser_geometry/cmake
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
+//Value Computed by CMake
+location_lms100_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/location_lms1xx/location_lms100
+
+//Value Computed by CMake
+location_lms100_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/location_lms1xx/location_lms100
+
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
 
@@ -1197,13 +1203,13 @@ publishing_odometry_information_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstR
 publishing_odometry_information_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_tutorial/publishing_odometry_information
 
 //Value Computed by CMake
-rf2o_laser_odometry_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_lms100/src/rf2o_laser_odometry
+rf2o_laser_odometry_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/location_lms1xx/rf2o_laser_odometry
 
 //Dependencies for the target
 rf2o_laser_odometry_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libtf.so;general;/opt/ros/kinetic/lib/libtf2_ros.so;general;/opt/ros/kinetic/lib/libactionlib.so;general;/opt/ros/kinetic/lib/libmessage_filters.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/opt/ros/kinetic/lib/libtf2.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
 
 //Value Computed by CMake
-rf2o_laser_odometry_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/navigation_lms100/src/rf2o_laser_odometry
+rf2o_laser_odometry_SOURCE_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/src/location_lms1xx/rf2o_laser_odometry
 
 //Value Computed by CMake
 robot_setup_tf_BINARY_DIR:STATIC=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/navigation_tutorial/robot_setup_tf

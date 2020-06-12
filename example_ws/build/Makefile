@@ -2333,7 +2333,7 @@ rf2o_laser_odometry: cmake_check_build_system
 
 # fast build rule for target.
 rf2o_laser_odometry/fast:
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build
 .PHONY : rf2o_laser_odometry/fast
 
 #=============================================================================
@@ -2346,7 +2346,7 @@ rf2o_laser_odometry_node: cmake_check_build_system
 
 # fast build rule for target.
 rf2o_laser_odometry_node/fast:
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build
 .PHONY : rf2o_laser_odometry_node/fast
 
 #=============================================================================

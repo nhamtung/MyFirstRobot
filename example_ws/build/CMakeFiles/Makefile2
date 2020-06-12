@@ -1957,22 +1957,22 @@ clean: hector_slam/hector_geotiff_plugins/CMakeFiles/hector_geotiff_plugins.dir/
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory navigation_lms100/src/navigation
+# Directory level rules for directory location_lms1xx/location_lms100
 
 # Convenience name for "all" pass in the directory.
-navigation_lms100/src/navigation/all:
+location_lms1xx/location_lms100/all:
 
-.PHONY : navigation_lms100/src/navigation/all
+.PHONY : location_lms1xx/location_lms100/all
 
 # Convenience name for "clean" pass in the directory.
-navigation_lms100/src/navigation/clean:
+location_lms1xx/location_lms100/clean:
 
-.PHONY : navigation_lms100/src/navigation/clean
+.PHONY : location_lms1xx/location_lms100/clean
 
 # Convenience name for "preinstall" pass in the directory.
-navigation_lms100/src/navigation/preinstall:
+location_lms1xx/location_lms100/preinstall:
 
-.PHONY : navigation_lms100/src/navigation/preinstall
+.PHONY : location_lms1xx/location_lms100/preinstall
 
 #=============================================================================
 # Directory level rules for directory pub_sub
@@ -6220,96 +6220,96 @@ clean: navigation_tutorial/publishing_odometry_information/CMakeFiles/publishing
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory navigation_lms100/src/rf2o_laser_odometry
+# Directory level rules for directory location_lms1xx/rf2o_laser_odometry
 
 # Convenience name for "all" pass in the directory.
-navigation_lms100/src/rf2o_laser_odometry/all: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
-navigation_lms100/src/rf2o_laser_odometry/all: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
+location_lms1xx/rf2o_laser_odometry/all: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
+location_lms1xx/rf2o_laser_odometry/all: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
 
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/all
+.PHONY : location_lms1xx/rf2o_laser_odometry/all
 
 # Convenience name for "clean" pass in the directory.
-navigation_lms100/src/rf2o_laser_odometry/clean: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
-navigation_lms100/src/rf2o_laser_odometry/clean: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
+location_lms1xx/rf2o_laser_odometry/clean: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
+location_lms1xx/rf2o_laser_odometry/clean: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
 
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/clean
+.PHONY : location_lms1xx/rf2o_laser_odometry/clean
 
 # Convenience name for "preinstall" pass in the directory.
-navigation_lms100/src/rf2o_laser_odometry/preinstall:
+location_lms1xx/rf2o_laser_odometry/preinstall:
 
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/preinstall
+.PHONY : location_lms1xx/rf2o_laser_odometry/preinstall
 
 #=============================================================================
-# Target rules for target navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir
+# Target rules for target location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir
 
 # All Build rule for target.
-navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all:
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/depend
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build
+location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all:
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/depend
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=34 "Built target rf2o_laser_odometry"
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
+.PHONY : location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
 
 # Include target in all.
-all: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
+all: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/rule: cmake_check_build_system
+location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles 0
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/rule
+.PHONY : location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/rule
 
 # Convenience name for target.
-rf2o_laser_odometry: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/rule
+rf2o_laser_odometry: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/rule
 
 .PHONY : rf2o_laser_odometry
 
 # clean rule for target.
-navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean:
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
+location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean:
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
+.PHONY : location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
 
 # clean rule for target.
-clean: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
+clean: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir
+# Target rules for target location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir
 
 # All Build rule for target.
-navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/depend
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build
+location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry.dir/all
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/depend
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles --progress-num=35,36 "Built target rf2o_laser_odometry_node"
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
+.PHONY : location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
 
 # Include target in all.
-all: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
+all: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/rule: cmake_check_build_system
+location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles 0
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/rule
+.PHONY : location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/rule
 
 # Convenience name for target.
-rf2o_laser_odometry_node: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/rule
+rf2o_laser_odometry_node: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/rule
 
 .PHONY : rf2o_laser_odometry_node
 
 # clean rule for target.
-navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean:
-	$(MAKE) -f navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
-.PHONY : navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
+location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean:
+	$(MAKE) -f location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/build.make location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
+.PHONY : location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
 
 # clean rule for target.
-clean: navigation_lms100/src/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
+clean: location_lms1xx/rf2o_laser_odometry/CMakeFiles/rf2o_laser_odometry_node.dir/clean
 
 .PHONY : clean
 

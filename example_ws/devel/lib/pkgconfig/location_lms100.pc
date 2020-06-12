@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
+
+Name: location_lms100
+Description: Description of location_lms100
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

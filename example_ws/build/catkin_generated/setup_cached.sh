@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/nhamtung/TungNV/MyFirstRobot/example_ws/build"
-export PYTHONPATH="/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
