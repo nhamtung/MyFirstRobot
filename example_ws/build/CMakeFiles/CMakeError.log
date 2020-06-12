@@ -1,0 +1,154 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7eeb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7eeb3.dir/build.make CMakeFiles/cmTC_7eeb3.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7eeb3.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7eeb3.dir/CheckSymbolExists.c.o   -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7eeb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eeb3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7eeb3.dir/CheckSymbolExists.c.o  -o cmTC_7eeb3 -rdynamic 
+CMakeFiles/cmTC_7eeb3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7eeb3.dir/build.make:97: recipe for target 'cmTC_7eeb3' failed
+make[1]: *** [cmTC_7eeb3] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7eeb3/fast' failed
+make: *** [cmTC_7eeb3/fast] Error 2
+
+File /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_36d0c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_36d0c.dir/build.make CMakeFiles/cmTC_36d0c.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36d0c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_36d0c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_36d0c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36d0c.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_36d0c.dir/CheckFunctionExists.c.o  -o cmTC_36d0c -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_36d0c.dir/build.make:97: recipe for target 'cmTC_36d0c' failed
+make[1]: *** [cmTC_36d0c] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_36d0c/fast' failed
+make: *** [cmTC_36d0c/fast] Error 2
+
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a340d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a340d.dir/build.make CMakeFiles/cmTC_a340d.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a340d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_a340d.dir/CheckSymbolExists.cxx.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_a340d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a340d.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a340d.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a340d/fast' failed
+make: *** [cmTC_a340d/fast] Error 2
+
+File /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc637/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc637.dir/build.make CMakeFiles/cmTC_dc637.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc637.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_dc637.dir/CheckSymbolExists.cxx.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_dc637.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_dc637.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_dc637.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dc637/fast' failed
+make: *** [cmTC_dc637/fast] Error 2
+
+File /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ef9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ef9e.dir/build.make CMakeFiles/cmTC_3ef9e.dir/build
+make[1]: Entering directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3ef9e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_3ef9e.dir/CheckSymbolExists.cxx.o -c /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_3ef9e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3ef9e.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3ef9e.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3ef9e/fast' failed
+make: *** [cmTC_3ef9e/fast] Error 2
+
+File /home/nhamtung/TungNV/MyFirstRobot/example_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
