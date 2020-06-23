@@ -1,0 +1,8 @@
+prefix=/home/nhamtung/TungNV/MyFirstRobot/example_ws/devel
+
+Name: slam_gmapping
+Description: Description of slam_gmapping
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -5589,6 +5589,24 @@ clean: sick_scan/CMakeFiles/topic_tools_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory hector_slam/slam_gmapping
+
+# Convenience name for "all" pass in the directory.
+hector_slam/slam_gmapping/all:
+
+.PHONY : hector_slam/slam_gmapping/all
+
+# Convenience name for "clean" pass in the directory.
+hector_slam/slam_gmapping/clean:
+
+.PHONY : hector_slam/slam_gmapping/clean
+
+# Convenience name for "preinstall" pass in the directory.
+hector_slam/slam_gmapping/preinstall:
+
+.PHONY : hector_slam/slam_gmapping/preinstall
+
+#=============================================================================
 # Directory level rules for directory rplidar_ros-master
 
 # Convenience name for "all" pass in the directory.

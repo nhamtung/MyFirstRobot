@@ -5,8 +5,11 @@ Link: http://wiki.ros.org/hector_slam
 
 1. Test LMS100 with sick_scan pkg
 
-2. Mapping with hector_mapping pkg:
+2.1. Mapping with hector_mapping pkg:
 - $roslaunch hector_mapping mapping_default.launch
+
+2.2. Mapping with gmapping pkg:
+- $roslaunch slam_gmapping gmapping.launch
 
 3. Save Map with map_server:
 - $rosrun map_server map_saver -f ~/TungNV/MyFirstRobot/example_ws/src/hector_slam/hector_geotiff/maps/test_map_TungNV
