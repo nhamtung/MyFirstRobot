@@ -1,10 +1,8 @@
-#!/usr/bin/env python
-# http://wiki.ros.org/rospy_tutorials/Tutorials/WritingImagePublisherSubscriber
 
-# RUN:
-# $roscore
-# $source devel/setup.bash
-# $rosrun example_pkg subImage.py
+
+# run: 
+#- $python ./src/pub_sub/scrips/subLaserOdom.py
+
 
 import rospy
 from std_msgs.msg import String
